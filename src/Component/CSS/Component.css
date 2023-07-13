@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(178, 245, 239);
+   margin: 0;
+}
+.component{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.todo{
+    
+    text-align: start;
+    max-width: 400px;
+    min-height: 400px;
+    padding: 20px;
+
+}
+.list{
+    background-color: rgb(247, 239, 195);
+    margin: 2px;
+    padding: 3px;
+    border: 2px solid black;
+}
