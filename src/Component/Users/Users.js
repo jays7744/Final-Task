@@ -40,7 +40,7 @@ const Users = () => {
           ))}
 
       {Names.map((name) => (
-          <li className="list" key={name}> {name}  </li>
+          <li className="list" key={name.id}> {name}  </li>
         ))}
           
         </ul>     
